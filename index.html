@@ -15,7 +15,8 @@
   <header>
     <div>
 	  <h1> Pete Thinkful | Article</h1>
-    <nav>
+    <nav> 
+    <!-- add link to each section of the page for nav -->
 	   <a href="#about">About</a>
 	   <a href="#portfolio">Portfolio</a>
 	   <a href="#contact">Contact</a>
@@ -25,35 +26,39 @@
   
   <main>
     <div>
-      <section id="about">
         <article>
+          <!-- move header for article and each section to meet html validate requirement -->
+          <h2>About</h2>
+          <!-- add id for each section so we can link it in nav -->
+          <section id="about">
             <header>
-                <h2>About</h2>
                 <h3>Hi! I'm Pete Thinkful</h3>
             </header>
           <img class="image-circle" src="images/pete-thinkful.png" alt="Pete-Thinkful">
             <p>I'm an artist living in Denver, Colorado.</p>
             
             <p>As an artist, I'm interested in:</p>
+            <!-- add unorder list to meet the requiremnt -->
             <ul>
               <li>Producing abstract art</li>
               <li>Creating street graffiti art</li>
               <li>Connecting with like-minded artists</li>
             </ul>
-            <p>Please feel free to take a look at my website and feel free to <a href="#contact">contact me.</a></p>
+            <p>Please feel free to take a look at my website and feel free to <a href="#contact">contact me.</a></p> <!-- add link in contact me section of the page -->
             <h3>Pete's Background</h3>
             <p>
               After graduating college, I became an art teacher and worked with beginners and professionals. I love art and my works have been featured in major art galleries across the globe.</p>
             <p>If you're looking to hire an artist or if you're an artist looking
 for a collaborator for your next project, please reach out! I'm so
-excited to work with other artists to create new art.</p>      
-      </article>
-    </section>
+excited to work with other artists to create new art.</p>  
+          </section>
+      
+
 
       <hr>
 
       <!-- TODO: Add Portfolio section here -->
-      <article>
+        <!-- add id for each section so we can link it in nav -->
         <section id="portfolio">
           <header>
                 <h2>Portfolio</h2>
@@ -77,19 +82,20 @@ distillery. Vaporware kickstarter air plant mumblecore food truck.</p>
 locavore shabby chic forage.</p>
         </div>
         </section>
-      </article>
 
       <hr>
 
       <!-- TODO: Add Contact section here -->
-      <article>
+        <!-- add id for each section so we can link it in nav -->    
         <section id="contact">
           <header>
             <h2>Contact</h2>
           </header>
+          
           <p>I'd love to hear from you! Please feel free to contact or follow me:</p>
           <ol>
-            <li><a href="#">LinkedIn</a></li>
+            <!-- adding link to my person linkedin but it didn't reload to linked properly -->
+            <li><a href="https://www.linkedin.com/in/chadapon-lohachitkul-5968a34a/">LinkedIn</a></li>
             <li><a href="#">Instagram</a></li>
             <li><a href="#">Pinterest</a></li>
           </ol>

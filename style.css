@@ -46,7 +46,15 @@ hr {
 /* Add your solution below */
 
 /* styling section */
-#about h2, #about h3, #portfolio h2, #portfolio h3, #contact h2 {
+#about h3, #portfolio h2, #portfolio h3, #contact h2 {
+  font-style: italic;
+  font-style: bold;
+  text-align: center;
+  margin-top: 20px;
+}
+
+/* adding styling for article h2  */
+article h2 {
   font-style: italic;
   font-style: bold;
   text-align: center;
